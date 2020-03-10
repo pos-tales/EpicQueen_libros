@@ -1,0 +1,462 @@
+***************************************
+23/enero/2020
+
+Pamela
+Nancy Zitle
+
+
+Hacer cuenta en slack
+Hacer cuenta en gib
+visual Studio code
+
+crear carpeta proyecto
+abrir visual studio code
+crear carpetas de
+assets
+css
+js
+img (aquí vamos a poner las imágenes)
+
+
+Despuès html:5 o html y tab
+
+Esto permite sacar la estructura básica de un html
+(convendría revisar qué partes tiene un html)
+
+
+En body va a ir el cuerpo de la página
+
+navegador, abrir, seleccionar mi archivo para observar mi archivo "en línea"
+
+. raiz
+/ directorios
+
+./assets/img/imagen.png
+
+Shortcuts
+En Visual Studio Code
+en file hay una opción de auto-save
+
+En el menú, el cuarto ícono (de cuadrados), son las extensiones
+
+
+Rutas relativas y directas
+estàticas= esas rutas perteneen a nuestro directorio
+relativas= permiten abrir la imagen desde otro sitio
+
+
+Ejercicios / tareas para casa
+-Cambiar los colores de visual
+- Instalar extensiones
+-Desinstalar extensiones
+- Buscar cómo agrego comentarios a mi código
+- ctrl + shift + 4 = seleccionar imagen y las guarda
+-buscar qué es el nav
+- investigar qué es una ruta relativa y una ruta directa
+-buyscar atributos de img src, alt,
+- buscar còmo cambiamos los tamaños
+
+https://guides.github.com/activities/hello-world/
+
+
+En visual studio code, 
+sobre la barra izquierda podemos dar clic derecho e ir creando carpetas y archivos (así fue como comenzamos a hacer la clase pasada el trabajo)
+
+**********************************************
+
+2020-01-27 SEGUNDA CLASE  
+extensiones: open in browser
+
+
+Para cambiar los tamaños: 
+Se hace cambiando los atributos de la imagen. 
+
+Puede hacerse con 
+max-width
+
+Responde = cambiar según el tamaño de la pantalla. 
+
+; con punto y coma se pueden listar atributos.
+
+Se modificaron tamaños de imágenes de dos formas:
+        <img src="https://www.saczoo.org/wp-content/uploads/2016/12/Kinkajou.jpg" width=250 alt="Kinkajou">
+        <p>Se ajustó el tamaño de la imagen usando los atributos de img width y height</p>
+        <img src="./assets/img/AvatarOlga.jpg" style="max-width:30%" alt="FotoPerfilOlga">
+    
+
+ "background-image: url(./assets/img/inktober.jpg);" o una url
+
+ background-size:20% 20% (quire decir 20 en x, 20 en y)
+
+
+ Propiedades que podemos poner en p (párrafo)
+ Font-size, color, font-family (estilo), text.transform,
+
+TAREA
+- Imagen1 poner logo de página
+- Imagen 2 poner un Avatar
+- revisar lo de rutas relativas y absolutas
+- p párrafo p 
+- h headers h (hasta 6)
+- cómo comentar
+-border:solid red 
+- revisar https://www.w3schools.com/howto/howto_css_full_page.asp
+- mdn web docs
+-w3schools
+- por ahora estamos buscando style in line html
+TArea:Cómo poner un botón
+Cómo poner un borde para mi casillita de texto con un color distinto adentro
+
+Div vs section
+
+button
+
+
+
+
+
+
+
+
+
+
+Vamos a poner una imagen de fondo
+
+
+
+etiqueta div
+aquí  vamos a poner la imagen de fondo
+
+
+
+******************************************************
+
+viernes 07 de febrero
+
+
+Hicimos lo del footer y poner botón de facebook y de facebook.
+La clase pasada acabó con poner un botón.
+
+Hoy vamos a comenzar con CCS
+Como va en cascada, toma la referencia de la propiedad dque esté hasta abajo, lo más anidado. 
+
+Cascading style sheets (un lenguaje de estilos) 
+trabaja en conjunto con HTML, pero no es tal cual HTML.
+
+Nos permite ponerle colores, posiciones, tamaños, estilos en la página, también algunas animaciones que hacen reaccionar elementos en Codepen o repl.it
+
+
+Reglas para CSS rule
+Selector (etiquetas, clases o ID's)
+Declaration pque dentro tiene una PROPIEDAD y un VALUE hexadecimal, es decir, 6 números
+
+body {color: #333333}
+SELECTOR {PROPIEDAD:VALOR}
+
+Para poner CSS en HTML hay 3 formas:
+-"inline" en línea. usa el atributo de estilo de html
+-"embedded" embebido (dentro del archivo html, con etiquetas style). Va entre la etiqueta zheadZ.
+-"external" externo (fuera del archivo pero se manda llamar en HTML) ESTE ES EL MÁS RECOMENDADO, EXCEPTO CUANDO EL ESTILO Y LA PÁGINA SON MÍNIMOS. Este recurso se usa a través de un link, en <head>, y reduce el tamaño del archivo. Se puede usar para varios documentos. 
+
+Pusimos un style en header: 
+
+background-image: url(https://www.saczoo.org/wp-content/uploads/2016/12/Kinkajou.jpg); 
+        background-repeat: no-repeat; 
+        background-size:100% 100%;
+        width:100%;
+        height:800px;
+        border: solid yellow 2px
+
+  Ahora, vamos a ver cómo son las Clases, entonces ahora en head, voy a hacer una clase background para que solo aparezca esas características en la clase background
+
+
+  CamelCase. Es mejor poner palabras juntas unidas por un guión para nombrar las clases
+
+
+  Los IDS son únicos, no se pueden repetir dentro de la página. 
+
+  ¿Cual es la diferencia entre un ID y una clas?
+  Un ID (#) tiene más peso que una clase (.), independientemente de dónde se encuentre en la cascada.
+
+  ya hicimos en línea y embebidos
+
+  Creamos archivo en carpeta css, un archivo llamado
+  index.css
+
+  Se necesita ../ para salirte de una carpeta y entrar a otra ruta.
+
+          /* comentarios de esta forma pero solo dentro de los Styles*/
+
+
+<!-- Este es un comentario en HTML -->
+
+
+
+Tarea:
+Terminar de pasar los estilos
+Investigar sobre: Modelo de caja CSS (y un ejemplo)
+flexbox (css tricks) buscarlo en mdn
+
+
+
+****************************************************
+
+Clase lunes 10 de febrero, 2020
+
+Poner el .div p
+
+y el nth
+
+Para poner clases hay que declarar en el head
+<link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+
+
+Hicimos clases anidadas
+
+.menu p:first-child {
+    color:blueviolet
+}
+.menu :nth-child(2){
+    color:blue
+
+
+borde
+padding
+margen
+
+Tipos de display en css
+La popiedad de display define cómo se visualiza un elemento en html, hay 4 tipos: block, inline, inline-block, none y flex. 
+
+Display block= elementos que ocupan todo el ancho de la página contenedora. Muchos elementos html se muestran en bloque por defecto, como p, h, footer, etc...
+
+.block{
+	display:block
+}
+
+Display inline. (<span> también funciona así)
+Son elementos que ocupan únicamente su contenido. Ejem, un link solo se aplica sobre el contenido del link. 
+HTML muestra en línea algunas cosas como b, a, br, 
+
+Inline block. 
+Es una combinacion de in line y de block. 
+
+Display:none
+El otro es para elementos ocultos.
+
+(relleno) padding: 40px oo... padding top, left, right, bottom
+
+margin: 20px 40 px (va a poner veinte, derecha40, abajo20 e izquierda 40)
+
+
+https://books.adalab.es/materiales-front-end-g/
+
+flexboxfroggy.com/#es (juego para aprender flex)
+
+display:flex (paraque se pongan las cosas alineadas)
+justify-content: space-between;
+
+Buscar las diferencias entre rem y em, buscar por qué Nancy prefiere que se pongan las medidas en rem.
+
+Tarea: 
+Mandar logo e imagen a los extremos
+border-radius:50% poner la imagen en redondo
+mandar captura de pantalla de las ranas
+
+#pond {
+  display: flex;
+  justify-content:
+      flex-start: Alinea elementos al lado izquierdo del contenedor.
+      flex-end: Alinea elementos al lado derecho del contenedor.
+      center: Alinea elementos en el centro del contenedor.
+      space-between: Muestra elementos con la misma distancia entre ellos.
+      space-around: Muestra elementos con la misma separación alrededor de ellos.
+  align-items:
+      flex-start: Alinea elementos a la parte superior del contenedor.
+      flex-end: Alinea elementos a la parte inferior del contenedor.
+      center: Alinea elementos en el centro (verticalmente hablando) del contenedor.
+      baseline: Muestra elementos en la línea base del contenedor
+      stretch: Elementos se estiran para ajustarse al contenedor.
+  flex-direction:
+      row: Elementos son colocados en la misma dirección del texto.
+    row-reverse: Elementos son colocados en la dirección opuesta al texto.
+    column: Elementos se colocan de arriba hacia abajo.
+    column-reverse: Elementos se colocan de abajo hacia arriba.
+  order:
+  align-self
+      flex-end: Alinea elementos a la parte inferior del contenedor.
+      center: Alinea elementos en el centro (verticalmente hablando) del contenedor.
+      baseline: Muestra elementos en la línea base del contenedor
+      stretch: Elementos se estiran para ajustarse al contenedor
+  flex-wrap:
+      nowrap: Cada elemento se ajusta en una sola línea.
+      wrap: los elementos se envuelven alrededor de líneas adicionales.
+      wrap-reverse: Los elementos se envuelven alrededor de líneas adicionales en reversa.
+  flex-flow= flex-direction + flex-wrap (valor de cada una separada por un espacio)
+  align-content: 
+      flex-start
+      flex-end:
+      center: centro (verticalmente)
+      space-between (misma distancia)
+      space-around: (misma separación)
+      stretch:
+
+
+*********************************************
+
+pixels
+2074 width 
+2765 height
+
+Tareas:
+Footer (ordenar los logos)
+
+
+Al body al comenzar hay que ponerlo 
+width:100%;
+height:100%;
+padding:0;
+margin:0;
+box-sizing:border-box;
+
+
+object-fit: cover;
+
+En el inspeccionador, se puede observar dos cosas de estilo, la de abajo es la más anidada.
+
+*********************sesión reposición viernes 21 feb 2020
+
+text-align:center
+
+
+direccionar a facebook
+poner 3 bloques de libros
+quitar los bordes 
+
+hover css
+investigar cursor
+
+
+*******************************************************************************
+Clase lunes 24 de febrero 2020
+
+
+https://repl.it/repls/KosherGiantSystemsoftware
+
+let numero = 14;
+ 
+let texto = "hola";
+ 
+console.log(numero,texto)
+
+Definición
+-Strings
+-Number
+-Boolean (true or false)
+-Undefined y null (no recomendable usar undefined, solo validar
+-Object (un tipo de valor con propiedades guardadas)
+
+JS es dinámico o debilmente tipado. Quiree decir que no hay que declarar qué tipo de objetos son las variables, al contrario de Java. 
+
+ 
+numero = "zero"
+ 
+console.log(typeof (numero))
+ 
+/* así comentamo*/
+ 
+Objetos
+
+let objetopersona ={
+ "edad": 25,
+ "nombre": "Nancy",
+ "estatura": 1.64
+}
+console.log(objetopersona)
+/* aquí nombre nancy debe llevar comillas porque de otro modo va a pensar que es una variable y no un string */
+ 
+ 
+
+
+let libro={
+ "nombre":"libro de Javascript",
+ "idioma": "inglés",
+ "páginas": 250
+}
+Console.log{libro}
+ 
+ 
+/*las variables en javascript son sensibles a mayúsculas.
+Hay algunas palabras restringidas para usar como nombres de variables*/
+ 
+/*Las variabbles no pueden llamarse empezando por nùmeros o con caracteres especiales */
+ 
+/*Objeto {key:valor}*/
+ 
+/* Para acceder a un valor, pongo lo siguiente pero va a salir todo junto*/
+console.log(libro.nombre + libro.apellido)
+ 
+/*así se puede separar por un espacio*/
+console.log(libro.nombre +' '+ libro.apellido)
+ 
+console.log(`${libro.nombre} ${libro.apellido}`)
+/*`TEMPLATE STRING que permiten poner variables dentro del texto*/
+ 
+Operadores lógicos
+ 
+/*
+ESto opera en boleano, o sea TRUE OR FALSE
+and && (significa y, si es falso y falso, es falso. Si es falso y verdadero, es falso. Si es verdadero y verdadero, es verdadero)
+or | (significa o, una o la otra para que sea TRUE. True || false, )
+not ! (te convierte el valor a un valor contrario)
+*/
+ 
+true && true
+// retorna: true
+true && false
+// retorna: false
+false && false
+// retorna: false
+true || true
+// retorna: true
+true || false
+// retorna: true
+false || false
+// return: false
+!true
+// retorna: false
+!false
+// retorna: true
+ 
+ 
+console.log(false || false)
+ 
+/*
+Array es una LISTA de elementos, pueden contener varios tipo s de datos, incluso objetos o arrays dentro de arrays (matrices)
+*/
+ 
+Arrays
+
+ 
+ 
+
+
+
+Funciones
+ 
+ 
+Tarea
+/*Tarea: cómo se pueden acceder a los objtos parecido que a los array?
+*/
+</footer>
+ <script src="./assets/js/index.js"></script>
+</body>
+
+Agregamos antes de cerrar el body, una parte al script de java, en el que pusimos:
+
+alert('¡hola mundo! Bienvenidos a mi página')
+
+
+**********************************
+Javascript
+
+googleapis.com

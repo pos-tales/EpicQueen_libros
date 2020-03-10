@@ -1,0 +1,126 @@
+body{
+    background-color:yellowgreen;
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body nav {
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+}
+
+.background-image{
+    background-image: url(https://www.saczoo.org/wp-content/uploads/2016/12/Kinkajou.jpg); 
+    background-repeat: no-repeat; 
+    background-size:100% 100%;
+    width:100%;
+    height:800px;
+    border: solid yellow 2px;
+}
+
+.border{border: solid blueviolet 2px;
+} /* comentarios de esta forma pero solo dentro de los Styles*/
+
+
+.inktober{
+    max-width:15%;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.SuperiorDerecha{
+    border: red solid 3px;
+    width: 202px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/*.logo img {
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+    border: solid green 10px;
+}*/
+
+
+
+.minombre{
+    color:gainsboro;
+    font-family:Alegreya Sans;
+    font-size:10 rem;
+    text-transform :capitalize;
+    margin-left: -500px;
+    display:flex;
+    justify-content: flex-end;
+    
+    
+}
+.libro{
+    background-image: url(https://clipartart.com/images/a-lot-of-books-clipart-6.png);
+    background-size: 100% 100%;
+    border: solid blue 2px;
+    height: 200px;
+    width: 100%;
+}
+
+.tarjetero{
+    border:solid black 5 px;
+    margin:20px, 20px, 20px, 20px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.tarjetas{
+    border: solid blueviolet 8px;
+    height: 500px;
+    width: 250px;
+    text-align:center;
+    margin: 20px;
+}
+.menu{
+    background-color:green;
+    background-size:100% 100%;
+    width:100%;
+    height:80px;
+    font-family:Alegreya Sans;
+    font-size:20px;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-content:center;
+}
+.menu p:first-child {
+    color:blueviolet
+}
+.menu :nth-child(1+1){
+    color:blue
+}
+
+.footer{
+    border:solid red 2px;
+    position: relative;
+    bottom:0;
+    background-color: yellow;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.footer div img{
+max-width: 50px;
+}
+
+.iconoredes{
+    max-width: 100px;
+}
