@@ -460,3 +460,37 @@ alert('¡hola mundo! Bienvenidos a mi página')
 Javascript
 
 googleapis.com
+
+**********************************
+
+Git es un controlador de cambios, una especie de repositorio que permite guardar nuestros códigos ahí.
+
+Desde donde estoy, no necesito instalar, ingreso a la consola
+
+
+cd Escritorio (ir al escritorio)
+
+ls (listar las carpetas o elementos donde puedo ir)
+
+cd .. (regresars a una carpeta anterior)
+
+control + l 
+o
+clear enter
+limpian la pantalla de comenados
+
+
+git init
+git add .
+git commit -m "Proyecto Epic Queen Libros :)"
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Tu Nombre"
+
+  git commit -m "Proyecto Epic Queen Libros :)"
+
+git remote add origin https://github.com/pos-tales/EpicQueen_libros.git
+git push -u origin master
+
+(usuario y contraseña)
+(en github actualizo y ya estan mis archivos arriba)
